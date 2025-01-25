@@ -1,0 +1,308 @@
+/* Resetowanie marginesów i paddingów */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stylizacja ciała dokumentu */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/dark_wall.png');
+    background-repeat: repeat;
+    background-size: cover; /* Dopasowanie do ekranu */
+}
+
+/* Kontener dla całej strony */
+.container {
+    max-width: 1200px; /* Maksymalna szerokość strony */
+    margin: 20px auto; /* Wyśrodkowanie kontenera i odstęp od góry/dół */
+    padding: 20px; /* Wewnętrzny odstęp */
+    border: 10px solid #4d4d4d; /* Ciemnoszara ramka */
+    border-radius: 25px; /* Zaokrąglenie rogów */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Cień dla efektu głębi */
+}
+
+/* Stylizacja nagłówka */
+header {
+    background-color: #4d4d4d; /* Ciemnoszare tło nagłówka */
+    color: white; /* Biały tekst */
+    padding: 20px 0;
+    margin-bottom: 5%; /* Dodaj więcej miejsca pod nagłówkiem */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Większy cień */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); /* Większy cień tekstu */
+    text-align: center;
+    border-radius: 10px; /* Zaokrąglenie rogów nagłówka */
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Styl logo */
+.logo-header {
+    background-color: #4d4d4d; /* Ciemnoszare tło logo */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+}
+
+/* Stylizacja menu */
+.navbar {
+    background-color: #4d4d4d; /* Ciemnoszare tło menu */
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Lekki cień pod menu */
+    border-radius: 15px;
+}
+
+.navbar .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar .nav-item {
+    margin: 0 15px;
+}
+
+.navbar .nav-link {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #a6a6a6;
+}
+
+/* Przyklej menu do góry strony */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Styl dla dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-btn {
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dropdown-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Stylizacja dropdown */
+.navbar-nav .dropdown-menu {
+    background-color: #333;
+    border: none;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item {
+    color: white;
+    padding: 10px 20px;
+    transition: background 0.3s;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: #555;
+}
+
+/* Sekcja */
+section {
+    padding: 40px 0;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+/* Sekcja O mnie */
+#about {
+    padding: 100px 20px;
+    background-color: #4d4d4d;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Cień */
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+#about p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* Sekcja Umiejętności */
+#skills {
+    background-color: #8f8d8d;
+    padding: 40px 20px;
+    color: #5a5858;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+#skills h2 {
+    color: #484848;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    background: rgba(255, 255, 255, 0.2);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: #2e2e2e;
+}
+
+/* Sekcja Blog */
+#blog {
+    background-color: #4d4d4d;
+    padding: 40px 20px;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+#blog h2 {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+}
+
+#blog p {
+    color: #e0e0e0;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Sekcja Kontakt */
+/* Sekcja Kontakt */
+#contact {
+    background-color: #f4f4f4; /* Jaśniejszy odcień szarości */
+    padding: 40px 20px;
+    color: #333; /* Ciemniejszy kolor tekstu dla lepszej widoczności */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    font-size: 2rem;
+    color: #444; /* Ciemniejszy odcień dla nagłówka */
+    text-align: center;
+}
+
+#contact p {
+    color: #555; /* Ciemniejszy kolor tekstu paragrafów */
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+
+/* Stylizacja formularza kontaktowego */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Styl dla sekcji projektów */
+#projects {
+    background-color: #4d4d4d;
+    padding: 3rem 0;
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+#projects h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#projects p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: center;
+}
+
+/* Karty projektów */
+.project-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.project-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 250px;
+}
+
+.project-card h3 {
+    font-size: 1.8rem;
+    margin-top: 15px;
+}
+
+.project-card p {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    color: #dcdcdc;
+}
+
+/* Galeria zdjęć */
+#photo-gallery .col-md-4 {
+    margin-bottom: 20px;
+}
+
+/* Stylizacja stopki */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
