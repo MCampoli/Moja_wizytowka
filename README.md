@@ -19,3 +19,5 @@ Projekt wykorzystuje:
 - **Bootstrap** – stylowanie strony  
 - **MySQL** – baza danych  
 - **GitHub** – repozytorium kodu  
+
+:)
