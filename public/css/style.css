@@ -9,7 +9,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/dark_wall.png');
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/small_grid.png');
     background-repeat: repeat;
     background-size: cover; /* Dopasowanie do ekranu */
 }
@@ -22,6 +22,9 @@ body {
     border: 10px solid #4d4d4d; /* Ciemnoszara ramka */
     border-radius: 25px; /* Zaokrąglenie rogów */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Cień dla efektu głębi */
+    background-color: inherit; /* To może powodować, że kontener dziedziczy tło po elemencie nadrzędnym */
+    
+    
 }
 
 /* Stylizacja nagłówka */
@@ -207,18 +210,18 @@ section {
 }
 
 /* Sekcja Kontakt */
-/* Sekcja Kontakt */
+
 #contact {
-    background-color: #f4f4f4; /* Jaśniejszy odcień szarości */
+    background-color: #9f9e9e; /* Jaśniejszy odcień szarości */
     padding: 40px 20px;
-    color: #333; /* Ciemniejszy kolor tekstu dla lepszej widoczności */
+    color: #615f5f; /* Ciemniejszy kolor tekstu dla lepszej widoczności */
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 #contact h2 {
     font-size: 2rem;
-    color: #444; /* Ciemniejszy odcień dla nagłówka */
+    color: #e3dada; /* Ciemniejszy odcień dla nagłówka */
     text-align: center;
 }
 
@@ -227,6 +230,71 @@ section {
     font-size: 1rem;
     line-height: 1.6;
     text-align: center;
+}
+
+/* Sekcja danych kontaktowych */
+#contact-details {
+    background-color: #f9f9f9; /* Jasne tło */
+    padding: 30px; /* Wewnętrzny odstęp */
+    border-radius: 10px; /* Zaokrąglone rogi */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Cień dla efektu głębi */
+    margin-bottom: 40px; /* Odstęp od kolejnych sekcji */
+    text-align: left; /* Tekst wyrównany do lewej */
+}
+
+#contact-details h2 {
+    font-size: 2rem;
+    color: #333; /* Ciemniejszy kolor tekstu */
+    margin-bottom: 20px;
+}
+
+#contact-details p {
+    font-size: 1rem;
+    color: #555; /* Lekko ciemniejszy kolor dla treści */
+    line-height: 1.6; /* Większa przestrzeń między liniami */
+    margin-bottom: 10px; /* Odstęp między paragrafami */
+}
+
+#contact-details strong {
+    color: #333; /* Ciemniejszy kolor dla nagłówków */
+}
+
+#contact-details a {
+    color: #007bff; /* Kolor linku */
+    text-decoration: none; /* Usuwamy podkreślenie */
+}
+
+#contact-details a:hover {
+    text-decoration: underline; /* Dodajemy podkreślenie przy najechaniu */
+}
+
+/* Sekcja mapy - Jak dojechać */
+#map {
+    background-color: #8a8787; /* Jasne tło */
+    padding: 30px; /* Wewnętrzny odstęp */
+    border-radius: 10px; /* Zaokrąglone rogi */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Cień dla efektu głębi */
+    margin-bottom: 40px; /* Odstęp od kolejnych sekcji */
+    text-align: center; /* Wyśrodkowanie tekstu */
+}
+
+#map h2 {
+    font-size: 2rem;
+    color: #0e0d0d; /* Ciemniejszy kolor tekstu */
+    margin-bottom: 20px;
+}
+
+#map p {
+    font-size: 1rem;
+    color: #0c0c0c; /* Lekko ciemniejszy kolor dla treści */
+    line-height: 1.6; /* Większa przestrzeń między liniami */
+    margin-bottom: 10px; /* Odstęp między paragrafami */
+}
+
+#map iframe {
+    max-width: 100%; /* Dopasowanie szerokości mapy do kontenera */
+    border-radius: 10px; /* Zaokrąglone rogi mapy */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Cień wokół mapy */
 }
 
 

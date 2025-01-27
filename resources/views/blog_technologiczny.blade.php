@@ -42,9 +42,4 @@
         </div>
     </section>
 
-    <footer class="text-center mt-5">
-        <p>&copy; 2025 Monika Campoli. Wszystkie prawa zastrzeżone.</p>
-    </footer>
-</div>
-
 @endsection

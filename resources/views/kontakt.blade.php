@@ -9,7 +9,7 @@
     </header>
 
     <!-- Dane kontaktowe w ramce -->
-    <section class="container mt-5">
+    <section id="contact-details" class="container mt-5">
         <h2>Dane kontaktowe</h2>
         <p><strong>Imię i nazwisko:</strong> Jan Kowalski</p>
         <p><strong>Numer telefonu:</strong> +48 123 456 789</p>
