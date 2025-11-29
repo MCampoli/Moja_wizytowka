@@ -1,6 +1,6 @@
 # 🌐 Moja Wizytówka  
 
-**Moja Wizytówka** to osobista strona portfolio stworzona w **Laravel**, z wykorzystaniem **MySQL**, **Bootstrap** oraz **GitHub**. Strona zawiera:  
+**Moja Wizytówka** to osobista strona portfolio stworzona w **Laravel**, z wykorzystaniem **MySQL**, **Bootstrap** . Strona zawiera:  
 - Informacje o mnie  
 - Moje projekty:
     - Portfolio fotograficzne  
